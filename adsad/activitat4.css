@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.imatges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.imatge {
+    text-align: left;
+    flex: 0 0 300px;
+    margin-bottom: 15px;
+}
+
+.imatge img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imatge p {
+    margin-top: 8px;
+    font-size: 1.1em;
+}
+
+@media (min-width: 320px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+    .desapareix {
+        display: none;
+    }
+}
+
+@media (min-width: 1224px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 1824px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+    body {
+        background-color: purple;
+    }
+}
